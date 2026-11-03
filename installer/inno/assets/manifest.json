@@ -1,0 +1,32 @@
+{
+  "product": "DiskManager",
+  "kind": "disk",
+  "edition": "2026-10",
+  "origin": "Cinna installer scenes, generated from the approved character and composition references",
+  "files": [
+    {
+      "path": "source-day.png",
+      "width": 1610,
+      "height": 977,
+      "sha256": "de10647667aeff3ed5fecc660025cb94885b5f56f5db0e0e2b016d7362a42c6c"
+    },
+    {
+      "path": "scene-day.jpg",
+      "width": 1610,
+      "height": 977,
+      "sha256": "1f40691d55866e60a615654b4a53651d4df72caa7ee59bd5254d3a0ff75f3a3a"
+    },
+    {
+      "path": "source-night.png",
+      "width": 1609,
+      "height": 977,
+      "sha256": "89571747a90ec194771baa8180d1bad2c48db85a369fce27ff99e539e3aee2c3"
+    },
+    {
+      "path": "scene-night.jpg",
+      "width": 1609,
+      "height": 977,
+      "sha256": "12627c31a2f14158f88202c0deb0674dea3823f5e5798e1a36308ac62ee6b7d1"
+    }
+  ]
+}

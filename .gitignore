@@ -1,0 +1,16 @@
+node_modules/
+dist/
+native/bin/
+native/obj/
+native/publish/
+native/publish-stage-*/
+.runtime/
+.deps/
+.packaging/
+.installer-build/
+release/
+installers/
+*.user
+.env
+.env.*
+!.env.example

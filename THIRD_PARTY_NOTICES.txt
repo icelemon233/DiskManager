@@ -1,0 +1,34 @@
+DiskManager is developed by Cinna.
+
+This distribution includes software from the following projects. Their licenses
+and notices are retained in the installed resources where provided by the runtime.
+
+Electron (MIT), Chromium and its third-party components (BSD-style and other licenses).
+See LICENSE.electron.txt and LICENSES.chromium.html in the application directory.
+https://github.com/electron/electron/blob/main/LICENSE
+
+React and React DOM (MIT), Copyright Meta Platforms, Inc. and affiliates.
+https://github.com/facebook/react/blob/main/LICENSE
+
+Radix UI Primitives (MIT), Copyright WorkOS.
+https://github.com/radix-ui/primitives/blob/main/LICENSE
+
+Lucide (ISC), Copyright Lucide Contributors. Contains Feather-derived icons (MIT).
+https://lucide.dev/license
+
+.NET runtime and Microsoft.Data.Sqlite (MIT), Copyright .NET Foundation and contributors.
+https://github.com/dotnet/runtime/blob/main/LICENSE.TXT
+https://github.com/dotnet/efcore/blob/main/LICENSE.txt
+
+SQLitePCLRaw (Apache-2.0), Copyright Eric Sink and contributors.
+https://github.com/ericsink/SQLitePCL.raw/blob/master/LICENSE.TXT
+SQLite is in the public domain.
+https://sqlite.org/copyright.html
+
+The installer uses Inno Setup and the Cinna native installer UI. Native installer
+toolchain and icon notices are installed under licenses/installer-ui.
+https://jrsoftware.org/files/is/license.txt
+
+Cinna application shell and installer source are adapted from the local Cinna
+NetworkToolbox project. DiskManager character artwork was generated from the
+user's Cinna character references for this application.

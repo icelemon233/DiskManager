@@ -1,0 +1,6 @@
+{
+  "target": "Windows x64 / Node-API 8",
+  "compiler": "Zig 0.15.2",
+  "sourceSha256": "e3e6490e8e9398198554eaa5dd2093e36bed458690e243a075f3e179cb7a65bb",
+  "moduleSha256": "b942d300fd9abe5be0ab041123aaaba7f96a21edd5bac47717747a0feb853488"
+}

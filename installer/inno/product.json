@@ -1,0 +1,21 @@
+{
+  "Name": "DiskManager",
+  "Description": "分析磁盘占用，比较变化并整理文件",
+  "Kind": "disk",
+  "Id": "local.cinna.diskmanager",
+  "Executable": "DiskManager.exe",
+  "UserFolder": "DiskManager",
+  "AppUserModelId": "local.cinna.diskmanager",
+  "MinimumWindows": "10.0.22000",
+  "Icon": "assets/icon.ico",
+  "BrandImage": "assets/icon.png",
+  "ShortcutIcon": "resources/app-icon-${version}.ico",
+  "Bootstrapper": "",
+  "DataDirectory": "{userappdata}\\DiskManager",
+  "LegacyKey": "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\local.cinna.diskmanager.legacy",
+  "InstallingMutex": "Local\\DiskManager.Installing",
+  "RunningMutex": "Local\\DiskManager.Running",
+  "WelcomeText": "分析磁盘占用、比较历史扫描、校验重复内容并预览文件清理。%n%n需要 Windows 11 x64，运行库已包含在安装包中。",
+  "ClosePrompt": "DiskManager 正在运行。继续后会请求正常退出并等待后台任务结束，请先保存需要的输入。",
+  "LegacyFiles": []
+}

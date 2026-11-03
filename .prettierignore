@@ -1,0 +1,12 @@
+node_modules
+dist
+.runtime
+.packaging
+.installer-build
+native
+installer
+licenses
+desktop/window-shell.json
+desktop/tray-menu*
+scripts/cinna-windows.ps1
+pnpm-lock.yaml

@@ -1,0 +1,18 @@
+{
+  "product": "DiskManager",
+  "variant": "disk-analyzer",
+  "source": "cinna-disk-source.png",
+  "sourceSha256": "4e78ecc2ebe82f4763e499cfcacb12faa95e30c63e76eb349025fdd21f0a68c7",
+  "masterSha256": "3e2b801c3b1e9741088f6f18d64f00757b94f56eb26ae36ec657b0b7a18590ad",
+  "sizes": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ]
+}
