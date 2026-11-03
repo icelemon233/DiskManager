@@ -16,4 +16,4 @@ Cinna-series Windows disk-space analyzer. Product name DiskManager, developer Ci
 
 `pnpm typecheck`, `pnpm build`, `dotnet build native/DiskManager.Native.csproj`, native `--self-test`, `node scripts/integration.mjs`, real Electron window QA and installer tests. Development .NET SDK is discovered via DOTNET_ROOT or installed SDK paths. No machine-specific SDK path in published runtime.
 
-First release implements the complete scope in docs/specification.md. The user authorized public source publication to icelemon233/DiskManager and Windows installer releases. Preserve user files and unrelated projects.
+First release implements the complete scope in docs/specification.md. The public repository is icelemon233/DiskManager, with Windows installers distributed through Releases. Remote publication follows the user's authorization for the active task. Preserve user files and unrelated projects.
