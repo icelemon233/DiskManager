@@ -1,43 +1,42 @@
-<img src="assets/icon.png" width="96" alt="DiskManager icon" />
+<p align="center"><img src="./assets/icon.png" alt="DiskManager icon" width="96"></p>
 
-# DiskManager
+<h1 align="center">DiskManager</h1>
 
-English | [简体中文](./README.zh-CN.md)
+<p align="center">English | <a href="./README.zh-CN.md">简体中文</a></p>
 
-DiskManager is a Windows desktop app for finding large files, comparing disk usage over time and reviewing files before cleanup. It belongs to the Cinna application family. The interface is in Simplified Chinese.
+Find large files, compare disk usage over time and review files before cleanup on Windows.
 
-## Explore your disks
+[Download for Windows](https://github.com/icelemon233/DiskManager/releases/latest) · [Build from source](./docs/development.md)
 
-- Select a drive letter to scan one local or external disk at a time. NTFS volumes use a read-only MFT helper authorized at startup. Other filesystems use directory traversal.
-- Switch between a directory table and a treemap-focused layout. Sort by allocated space or file size, inspect file types and filter the file ranking.
-- Compare saved scans down to individual files. Complete scans are saved automatically, with configurable retention and pinned records.
-- Verify duplicate content across selected locations and suggest copies to retain using directory preferences.
-- Preview Windows, browser and developer-cache cleanup, or save custom rules. Recycle, permanent deletion, moves and renames require confirmation and recheck file identity before execution.
-- Export CSV, a reopenable scan snapshot or a treemap PNG.
+Windows 11 x64 is the validated target. The interface is in Simplified Chinese.
 
-Results become available before history finishes saving. DiskManager displays the save status and waits for pending saves when quitting normally.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/readme/overview-dark.png">
+  <img src="./docs/readme/overview-light.png" alt="DiskManager directory table and treemap using synthetic test files" width="960">
+</picture>
 
-![Disk analysis with synthetic test files](docs/assets/analysis.png)
+*Synthetic test files.*
 
-## Start
+## Disk analysis
 
-Download the Windows x64 installer from [GitHub Releases](https://github.com/icelemon233/DiskManager/releases/latest). Windows 11 x64 is the validated target.
+- Explore a directory table and treemap, sorted by allocated space or file size.
+- Compare saved scans down to individual file changes.
+- Verify duplicate content across selected locations and choose copies to retain.
+- Preview cache cleanup, recycling, deletion, moves and renames before confirming.
+- Export CSV, reopenable scan snapshots and treemap images.
 
-Run `DiskManager-1.0.8-windows-x64-setup.exe`, then select a drive letter and click **扫描** in **空间分析**. DiskManager requests Windows administrator permission at startup and reuses the scan helper until the app exits. If you decline, directory scanning remains available and **重新授权** lets you retry.
+## Get started
 
-The current package is unsigned. System locations are read-only in the file-operation workflow. Online-only cloud files are skipped during content verification unless you opt in to downloading them. Moving files to the Recycle Bin keeps their disk space occupied until the bin is emptied.
+1. Install and open **DiskManager**.
+2. In **空间分析** (Disk analysis), select one local or external drive and click **扫描** (Scan).
+3. Browse the results, compare a saved scan or select files to review an operation plan.
 
-For detailed workflows, see the [usage guide](docs/usage.md). Build instructions and verification notes are in the [development guide](docs/development.md).
+Complete scans are saved automatically. Results remain usable while history saves in the background, and normal exit waits for pending saves.
 
-## Build from source
+## Permissions and file operations
 
-Use Node.js 24, pnpm 11 and the .NET 10 SDK on Windows.
+At startup, Windows asks you to authorize a read-only helper for fast NTFS scanning. If you decline, directory scanning remains available. **重新授权** (Authorize again) lets you retry. Other filesystems use directory traversal. The Windows package is unsigned.
 
-```powershell
-pnpm install --frozen-lockfile
-pnpm native
-pnpm build
-pnpm desktop
-```
+File operations require confirmation and recheck file identity before execution. System locations are protected from modification. Online-only cloud files are skipped during content verification unless you choose to download them. Files in the Recycle Bin continue to occupy space until the bin is emptied.
 
-Third-party notices are included in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+See the [usage guide (Chinese)](./docs/usage.md) for scanning, duplicate checks, cleanup and history. Third-party licenses are listed in [third-party notices](./THIRD_PARTY_NOTICES.txt).
